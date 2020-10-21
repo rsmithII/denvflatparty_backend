@@ -14,6 +14,13 @@ class BeersController < ApplicationController
             name: params[:name],
             requested: params[:requested]
         )
-        redirect_to 'http://localhost:3000'
+        redirect_to 'http://localhost:3001'
+    end
+
+    def destroy
+        @beer = Beer.find(params[:id])
+        @beer.destroy
+
+        render json: "Item #{@beer.id} has been removed."
     end
 end

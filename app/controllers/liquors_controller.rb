@@ -15,6 +15,13 @@ class LiquorsController < ApplicationController
             kind: params[:kind],
             requested: params[:requested]
         )
-        redirect_to 'http://localhost:3000'
+        redirect_to 'http://localhost:3001'
+    end
+
+    def destroy
+        @liquor = Liquor.find(params[:id])
+        @liquor.destroy
+
+        render json: "Item #{@liquor.id} has been removed."
     end
 end
