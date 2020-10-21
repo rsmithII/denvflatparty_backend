@@ -12,8 +12,7 @@ class BeersController < ApplicationController
     def create
         @beer = Beer.create(
             name: params[:name],
-            kind: params[:kind],
-            by_request: params[:by_request]
+            requested: params[:requested]
         )
         redirect_to 'http://localhost:3000'
     end
