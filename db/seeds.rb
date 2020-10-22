@@ -33,28 +33,28 @@ don_julio = Liquor.create(
 
 cab = Wine.create(
    name: "Cabernet Sauvignon",
-   kind: "Full-bodied red with herbal notes",
+   kind: "Red",
    requested: "Katie"
 )
 chardonnay = Wine.create(
    name: "Chardonnay",
-   kind: "Fruity, dry, medium-bodied white",
+   kind: "White",
    requested: "Music"
 )
 pinot_grigio = Wine.create(
    name: "Pinot grigio",
-   kind: "Dry, crisp, light-bodied white",
+   kind: "White",
    requested: "Paige"
 )
 pinot_noir = Wine.create(
    name: "Pinot noir",
-   kind: "Dry, medium-bodied red wine",
+   kind: "Red",
    requested: "Kristine"
 )
 
 heineken = Beer.create(
    name: "Heineken",
-   requested: "Brian" 
+   requested: "Brian"
 )
 miller_lite = Beer.create(
    name: "Miller Lite",
@@ -64,4 +64,3 @@ pbr = Beer.create(
    name: "Pabst Blue Ribbon",
    requested: "Marcos"
 )
-
