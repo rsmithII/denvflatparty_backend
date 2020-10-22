@@ -7,12 +7,7 @@ cranberry = Mixer.create(name: "Cranberry Juice")
 tea = Mixer.create(name: "Sweet/Unsweet Tea")
 pineapple = Mixer.create(name: "Pineapple Juice")
 orange = Mixer.create(name: "Orange Juice")
-coke = Mixer.create(name: "Coca-cola")
-club_soda = Mixer.create(name: "Club Soda")
-sprite = Mixer.create(name: "Sprite")
-cherries = Mixer.create(name: "Cherries")
-lime = Mixer.create(name: "Lime")
-neat = Mixer.create(name: "Neat")
+
 
 vodka = Liquor.create(
    name: "Grey Goose",
@@ -34,21 +29,7 @@ don_julio = Liquor.create(
    kind: "Tequila",
    requested: "Kyle"
 )
-jim_beam = Liquor.create(
-   name: "Jim Beam",
-   kind: "Bourbon",
-   requested: "Johnny"
-)
-crown = Liquor.create(
-   name: "Crown Royal",
-   kind: "Whiskey",
-   requested: "Kelsey"
-)
-johnny_walker = Liquor.create(
-   name: "Johnny Walker",
-   kind: "Scotch",
-   requested: "Jon"
-)
+
 
 cab = Wine.create(
    name: "Cabernet Sauvignon",
@@ -83,11 +64,4 @@ pbr = Beer.create(
    name: "Pabst Blue Ribbon",
    requested: "Marcos"
 )
-budlight = Beer.create(
-   name: "Budlight",
-   requested: "Eric"
-)
-budweiser = Beer.create(
-   name: "Budweiser",
-   requested: "Ahmed"
-)
+
